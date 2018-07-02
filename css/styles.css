@@ -6,11 +6,12 @@
    font-family: 'IM Fell English SC', serif;
    text-align: center;
    color: #ff5252;
-  font-size: 200px;
+  font-size: 150px;
 }
 body {
   font-family: 'Dosis', sans-serif;
   background-image: url("../img/ninja.png");
+  height: auto;
 }
 .btn {
   background-color: white;
@@ -30,8 +31,9 @@ body {
 }
 
 .htp {
+  font-family: 'IM Fell DW Pica SC', serif;
   float: right;
-  color: #ffbcb2;
+  color: #ff5252;
   font-size: 20px;
   border-radius: 30px;
   background: linear-gradient(
