@@ -1,7 +1,6 @@
 .container-fluid {
-  background-image: url("../img/ninja.png");
-  height: 800px;
-  background-size: contain;
+  height: auto;
+  background-size: cover;
 }
 .ping-header {
    font-family: 'IM Fell English SC', serif;
@@ -11,4 +10,5 @@
 }
 body {
   font-family: 'Dosis', sans-serif;
+  background-image: url("../img/ninja.png");
 }
