@@ -19,7 +19,7 @@ body {
   font-family: 'IM Fell English SC', serif;
   font-size: 50px;
   color: #ff5252;
-  border-style:
+  border-radius: 10px;
 }
 .form-group {
   font-size: 30px;
@@ -31,9 +31,9 @@ body {
 }
 
 .htp {
-
+  font-family: 'IM Fell DW Pica SC', serif;
   float: right;
-  color: #ffbcb2;
+  color: #ff5252;
   font-size: 20px;
   border-radius: 30px;
   background: linear-gradient(
