@@ -12,3 +12,19 @@ body {
   font-family: 'Dosis', sans-serif;
   background-image: url("../img/ninja.png");
 }
+.btn {
+  background-color: white;
+  border-color: #ff5252;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 50px;
+  color: #ff5252;
+  border-style:
+}
+.form-group {
+  font-size: 30px;
+  color: #b1ffcf;
+}
+.output-ping {
+  font-size: 30px;
+  color: #b1ffcf;
+}
