@@ -6,11 +6,12 @@
    font-family: 'IM Fell English SC', serif;
    text-align: center;
    color: #ff5252;
-  font-size: 200px;
+  font-size: 150px;
 }
 body {
   font-family: 'Dosis', sans-serif;
   background-image: url("../img/ninja.png");
+  height: auto;
 }
 .btn {
   background-color: white;
@@ -27,4 +28,16 @@ body {
 .output-ping {
   font-size: 30px;
   color: #b1ffcf;
+}
+
+.htp {
+
+  float: right;
+  color: #ffbcb2;
+  font-size: 20px;
+  border-radius: 30px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
 }

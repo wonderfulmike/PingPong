@@ -16,20 +16,34 @@
 
     <h1 class="ping-header">Ping-Pong</h1>
 
-    <div class="row">
+    <div class="form-group">
 
-        <div class="form-group">
+      <h2>Ping Pong</h2>
 
-          <h2>Ping Pong</h2>
+      <form id="userInput" action="index.html" class="form-g" method="get">
 
-          <form id="userInput" action="index.html" class="form-g" method="get">
+        <label for="userNumber">Enter your number here:</label>
+        <input id="countTo" type="number" name="number" value="">
 
-            <label for="userNumber">Enter your number here:</label>
-            <input id="countTo" type="number" name="number" value="">
+        <button type="submit" name="button" class="btn">Chop</button>
 
-            <button type="submit" name="button"class="btn">Submit</button>
+      </form>
 
-          </form>
+      <div class="row">
+
+        <div class="jumbotron htp">
+
+          <h2>How to Play</h2>
+          <p>When you add a numberof your choice and <strong><em>chop</em></strong> your number will count from 1 to your number with the exceptions of...</p>
+          <ul>
+            <li>Numbers divisibleby 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 15 become "pingpong"</li>
+          </ul>
+
+          <h2>About Game</h2>
+          <h3>Created by: Mike Wonder</h3>
+          <h3>Tech Used: JavaScript and CSS plus HTML</h3>
 
         </div>
 
@@ -43,15 +57,15 @@
 
 
 
-      <script src="js/scripts.js"></script>
+        <script src="js/scripts.js"></script>
+
+
+
+      </div>
 
 
 
     </div>
-
-
-
-  </div>
 
 </body>
 
